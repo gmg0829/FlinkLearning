@@ -1,0 +1,4 @@
+transactionId,customerId,itemId,amountPaid
+1000,2000,1,10
+1001,2000,1,80
+1002,3000,2,10
