@@ -107,7 +107,7 @@
 							</filters>
 							<transformers>
 								<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.gmg.StreamingJob</mainClass>
+									<mainClass>com.gmg.App</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
