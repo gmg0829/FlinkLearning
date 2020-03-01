@@ -22,6 +22,8 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String[] args) throws Exception {
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+//        env.setStreamTimeCharacteristic(TimeCharacteristic.EventTime);
+//        env.setStreamTimeCharacteristic(TimeCharacteristic.ProcessingTime);
         env.setStreamTimeCharacteristic(TimeCharacteristic.IngestionTime);
 
         DataStream<Order> orderA = env.fromCollection(Arrays.asList(
