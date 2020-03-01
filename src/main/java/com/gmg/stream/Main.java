@@ -61,6 +61,7 @@ public class Main{
 
         orderA.keyBy("user").sum("amount");
 
+
         env.execute("Stream");
 
 
