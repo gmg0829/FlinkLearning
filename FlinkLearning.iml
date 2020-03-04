@@ -67,5 +67,7 @@
     <orderEntry type="library" name="Maven: com.google.j2objc:j2objc-annotations:1.1" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.mojo:animal-sniffer-annotations:1.14" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-cep_2.11:1.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.flink:flink-metrics-dropwizard:1.10.0" level="project" />
+    <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-core:3.1.5" level="project" />
   </component>
 </module>
